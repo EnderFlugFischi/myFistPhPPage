@@ -1,8 +1,6 @@
-# myFistPhPPage
+# Here a list of the most importand things
 
-Here a list of the most importand things
-
-A databese Connection
+The databese Connection
 ```
 $conn = new PDO("mysql:host=localhost;dbname=classicmodels", "root", "1234");
     $stmt = $conn->prepare($quaryString);
@@ -10,7 +8,7 @@ $conn = new PDO("mysql:host=localhost;dbname=classicmodels", "root", "1234");
     $data = $stmt->fetch(PDO::FETCH_ASSOC);
     return $data;
 ```
-A Table
+The Table
 ```
 <table class="table table-hover">
     <thead>
